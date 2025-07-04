@@ -83,3 +83,30 @@ Stance:
 
 
 #
+
+# 🧠 Premise–Claim Linking 
+
+---
+Handles **LLM-powered premise–claim linking** using OpenAI and Pydantic.
+
+###  Key Features
+
+- Accepts user input (claims + premises)
+- Uses **OpenAI GPT models** with custom prompts to map premises to their corresponding claims
+- Identifies stance (`pro` / `con`) and gracefully handles unmatched premises
+- Validates all outputs using **Pydantic**, ensuring clean, structured JSON
+
+### Output Format (`output.json`)
+
+```json
+{
+  "linked_premises": [
+    {
+      "premise_text": "EVs have zero tailpipe emissions.",
+      "stance": "pro",
+      "linked_claim_text": "Electric vehicles are better for the environment."
+    },
+    ...
+  ]
+}
+
