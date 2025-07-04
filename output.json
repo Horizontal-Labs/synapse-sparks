@@ -1,0 +1,34 @@
+{
+  "linked_premises": [
+    {
+      "premise_text": "EVs have zero tailpipe emissions.",
+      "stance": "pro",
+      "linked_claim_text": "Electric vehicles are better for the environment."
+    },
+    {
+      "premise_text": "EV battery mining damages ecosystems.",
+      "stance": "con",
+      "linked_claim_text": "Electric vehicles are better for the environment."
+    },
+    {
+      "premise_text": "Most EVs are charged with electricity generated from fossil fuels.",
+      "stance": "con",
+      "linked_claim_text": "Electric vehicles are better for the environment."
+    },
+    {
+      "premise_text": "AI-generated images mimic style but lack original thought.",
+      "stance": "con",
+      "linked_claim_text": "AI-generated art is not true creativity."
+    },
+    {
+      "premise_text": "People working remotely often report fewer distractions and better focus.",
+      "stance": "pro",
+      "linked_claim_text": "Remote work improves employee productivity."
+    },
+    {
+      "premise_text": "3D-printed organs could reduce transplant wait times.",
+      "stance": "pro",
+      "linked_claim_text": null
+    }
+  ]
+}
